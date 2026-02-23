@@ -53,8 +53,7 @@ class AppTest {
     }
 
     @Test
-
-    void getPet() {
+    void addNewPet() {
         RestAssured.baseURI = "https://petstore.swagger.rv-school.ru/api/v3";
 
         String requestBody = """
